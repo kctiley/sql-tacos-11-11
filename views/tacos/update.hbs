@@ -1,0 +1,11 @@
+<h1>UPDATE your taco</h1>
+
+<form action="/tacos/update/{{taco.id}}" method="post">
+  <label for="shell"> Shell </label>
+  <input type="text" name='shell' id='shell' value='{{taco.shell}}'>
+
+  <label for="taste"> Taste </label>
+  <input type="text" name='taste' id='taste' value='{{taco.taste}}'>
+  <input type="submit">
+</form>
+
